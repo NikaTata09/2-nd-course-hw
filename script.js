@@ -39,5 +39,14 @@ const user = {
     isAdmin: true,
 };
 // Задание 9.1
-let info = prompt (`city of residence?`);
-alert (user [info]);
+user [`city of residence`] = Kaliningrad;
+// Задание 9.2
+user.age = 18;
+//Задание 9.3
+delete user [`city of residence`];
+//Задание 9.4
+let info = prompt (`Какую информацию хотите узнать о пользователе?`);
+alert (user [`info`]);
+//Задание 10
+let youName = prompt (`Как тебя зовут?`);
+alert (`Привет, ${youName}!`);
