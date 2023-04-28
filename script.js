@@ -38,3 +38,6 @@ const user = {
     age: `39`,
     isAdmin: true,
 };
+// Задание 9.1
+let info = prompt (`city of residence?`);
+alert (user [info]);
