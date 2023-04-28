@@ -1,3 +1,5 @@
+//HomeWork 2
+
 //Задание 1
 let a = 10;
 alert (a);
@@ -50,3 +52,5 @@ alert (user [`info`]);
 //Задание 10
 let youName = prompt (`Как тебя зовут?`);
 alert (`Привет, ${youName}!`);
+
+//HomeWork 3
