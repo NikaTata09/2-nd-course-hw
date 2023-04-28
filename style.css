@@ -65,13 +65,13 @@
     align-items: center;
     color: #FFFFFF;
     width: 379px;
-height: 300px;
-border-radius: 16px;
+    height: 300px;
+    border-radius: 16px;
 }
 .item_1{
-        background-image: url(img/Game1.png);
-        display: flex;
-        align-items: flex-end;
+    background-image: url(img/Game1.png);
+    display: flex;
+    align-items: flex-end;
     padding-left: 32px;
     padding-bottom: 32px;
 }
@@ -89,3 +89,4 @@ border-radius: 16px;
     padding-left: 32px;
     padding-bottom: 32px;
 }
+@import '_mobil';
