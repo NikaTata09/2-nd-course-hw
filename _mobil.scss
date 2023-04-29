@@ -1,4 +1,8 @@
 @media (max-width:767px) {
+    .center {
+        padding-left: calc(50% - 175px);
+        padding-right: calc(50% - 175px);
+      }
     .top {
         height: 735px;
         }
@@ -14,11 +18,24 @@
         line-height: 22px;
         display: flex;
         text-align: center;
+        width: 343px;
+        height: auto;
+    }
+    .butt {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
     }
     .game {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 32px;
+        width: 343px;
+        height: auto;
+        padding-left: 16px;
     }
+    .top2 {
+        height: 1221px;
     }
+}
